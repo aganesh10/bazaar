@@ -1,4 +1,4 @@
-package com.example.bombay.ui.menu;
+package com.example.bombay.ui.pay;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,23 +10,23 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.bombay.databinding.FragmentMenuBinding;
-import com.example.bombay.ui.menu.MenuViewModel;
+import com.example.bombay.databinding.FragmentPayBinding;
+import com.example.bombay.ui.pay.PayViewModel;
 
-public class MenuFragment extends Fragment {
+public class PayFragment extends Fragment {
 
-    private FragmentMenuBinding binding;
+    private FragmentPayBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        MenuViewModel menuViewModel =
-                new ViewModelProvider(this).get(MenuViewModel.class);
+        PayViewModel payViewModel =
+                new ViewModelProvider(this).get(PayViewModel.class);
 
-        binding = FragmentMenuBinding.inflate(inflater, container, false);
+        binding = FragmentPayBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textMenu;
-        menuViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textPay;
+        payViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

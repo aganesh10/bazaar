@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pay.PayFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:gravity="top|center"
+        android:text="Your cart from \nKathmandu Market"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    <TextView
+        android:gravity="left"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="Poop"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Pay" />
+</LinearLayout>
+
+</FrameLayout>
