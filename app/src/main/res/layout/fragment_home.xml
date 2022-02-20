@@ -2,16 +2,26 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="0">
+    android:stretchColumns="1">
     <TableRow>
 
         <Button
             android:id="@+id/text_home"
-            android:layout_width="wrap_content"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="⛰️ Kathmandu Market" />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/Romelio"
             android:text="Kathmandu Market" />
-
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0.1 mi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
     </TableRow>
     <TableRow>
 
@@ -45,5 +55,85 @@
             android:fontFamily="@font/anaheim"
             android:padding="3dip"
             android:text="Ashwin's Sports Bar" />
+=======
+        android:id="@+id/text_bongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="🍔 Bongo Burger"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0.1 mi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_pacsun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="🐻 Bancroft Clothing Co"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0.3 mi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_botique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="👗 Kunaal's Botique"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0.3 mi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="🏈 Ashwin's Sports Bar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0.5 mi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="🎁 Jasmine's Souvenir Shop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0.7 mi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+>>>>>>> c1af875c0758bea3aa3241c99c53ec413828690f
     </TableRow>
 </TableLayout>
