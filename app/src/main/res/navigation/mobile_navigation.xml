@@ -10,20 +10,20 @@
         android:name="com.example.bombay.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard"
-        android:fontFamily="@font/roboto"/>
+        android:fontFamily="@font/roboto_regular"/>
 
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.bombay.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home"
-        android:fontFamily="@font/roboto"/>
+        android:fontFamily="@font/roboto_regular"/>
 
     <fragment
         android:id="@+id/navigation_wallet"
         android:name="com.example.bombay.ui.wallet.WalletFragment"
         android:label="@string/title_wallet"
         tools:layout="@layout/fragment_wallet"
-        android:fontFamily="@font/roboto"/>
+        android:fontFamily="@font/roboto_regular"/>
 
 </navigation>

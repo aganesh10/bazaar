@@ -24,7 +24,7 @@
             android:baselineAligned="false"
 
             android:drawableLeft="@drawable/coin_foreground"
-            android:fontFamily="@font/Romelio"
+            android:fontFamily="@font/romelio"
             android:gravity="left|center"
 
             android:text="10 coins"

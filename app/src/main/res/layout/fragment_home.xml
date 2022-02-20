@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:stretchColumns="1">
     <TableRow>
-
         <Button
             android:id="@+id/text_home"
             android:layout_width="315dp"
@@ -15,8 +14,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/Romelio"
-            android:text="Kathmandu Market" />
             android:gravity="center"
             android:textStyle="bold"
             android:text="0.1 mi"
@@ -24,44 +21,12 @@
             android:textSize="16sp" />
     </TableRow>
     <TableRow>
-
         <Button
-            android:id="@+id/text_bongo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/Romelio"
-            android:text="Bongo Burger" />
-    </TableRow>
-    <TableRow>
-
-        <TextView
-            android:layout_width="400dp"
-            android:fontFamily="@font/anaheim"
-            android:padding="3dip"
-            android:text="Pacsun" />
-    </TableRow>
-    <TableRow>
-
-        <TextView
-            android:layout_width="400dp"
-            android:fontFamily="@font/anaheim"
-            android:padding="3dip"
-            android:text="Kunaal's Botique" />
-    </TableRow>
-    <TableRow>
-
-        <TextView
-            android:layout_width="400dp"
-            android:fontFamily="@font/anaheim"
-            android:padding="3dip"
-            android:text="Ashwin's Sports Bar" />
-=======
         android:id="@+id/text_bongo"
         android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:gravity="left|center"
             android:text="🍔 Bongo Burger"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -134,6 +99,5 @@
             android:text="0.7 mi"
             android:textColor="#000000"
             android:textSize="16sp" />
->>>>>>> c1af875c0758bea3aa3241c99c53ec413828690f
     </TableRow>
 </TableLayout>

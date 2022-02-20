@@ -5,10 +5,127 @@
     android:layout_height="match_parent"
     tools:context=".ui.menu">
 
-    <TextView
-        android:id="@+id/text_menu"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+        <TableRow>  <TextView
+            android:id="@+id/text_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:textSize="25sp"
+            android:background="@color/background"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Kathmandu Market" />
+            <TextView
+                android:id="@+id/text_emoji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:textSize="25sp"
+                android:background="@color/background"
+                android:textColor="#000000"
+                android:text="🍛" />
+        </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_home"
+            android:layout_width="315dp"
+            android:layout_height="100dp"
+            android:gravity="left|center"
+            android:text="🍽️ Himalayan Combo Plate" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="$12.99"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_bongo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="left|center"
+            android:text="🥔 Homemade Veggie Samosas (2)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="$5.99"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_pacsun"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="left|center"
+            android:text="🥭 Mango Lassi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="$4.99"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_botique"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="left|center"
+            android:text="🍗 Homemade Chicken Momo Dumplings"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="$9.99"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_sports"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="left|center"
+            android:text="🍚 Fresh Basmati Rice"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="$2.99"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/text_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="left|center"
+            android:text="🍞 Plain Naan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="$3.99"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+</TableLayout>
 
 </FrameLayout>
