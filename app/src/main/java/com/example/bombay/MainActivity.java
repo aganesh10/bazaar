@@ -18,8 +18,6 @@ import com.example.bombay.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    private Button button;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,15 +35,6 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-
-        button = (Button) findViewById(R.id.kathmandu);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), Menu.class);
-                startActivity(intent);
-            }
-        });
     }
 
     /** Called when the user touches the button */

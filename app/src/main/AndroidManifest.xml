@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bombay">
         <activity
+            android:name=".TestActivity"
+            android:exported="false"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.Bombay.NoActionBar" />
+        <activity
             android:name=".Menu"
             android:exported="false"
             android:label="@string/title_activity_menu"
