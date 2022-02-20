@@ -11,9 +11,11 @@
             android:text="Kathmandu Market"/>
     </TableRow>
     <TableRow>
-        <TextView
-            android:text="Bongo Burger"
-            android:padding="3dip" />
+        <Button
+        android:id="@+id/text_bongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bongo Burger"/>
     </TableRow>
     <TableRow>
         <TextView

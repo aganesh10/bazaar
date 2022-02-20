@@ -36,10 +36,4 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
-
-    /** Called when the user touches the button */
-    public void openMenu(View view) {
-        // Do something in response to button click
-    }
-
 }
