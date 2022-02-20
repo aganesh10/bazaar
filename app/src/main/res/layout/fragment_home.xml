@@ -4,34 +4,45 @@
     android:layout_height="match_parent"
     android:stretchColumns="0">
     <TableRow>
+
         <Button
             android:id="@+id/text_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kathmandu Market"/>
+            android:fontFamily="@font/Romelio"
+            android:text="Kathmandu Market" />
+
     </TableRow>
     <TableRow>
+
         <Button
-        android:id="@+id/text_bongo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bongo Burger"/>
+            android:id="@+id/text_bongo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/Romelio"
+            android:text="Bongo Burger" />
     </TableRow>
     <TableRow>
+
         <TextView
             android:layout_width="400dp"
+            android:fontFamily="@font/anaheim"
             android:padding="3dip"
             android:text="Pacsun" />
     </TableRow>
     <TableRow>
+
         <TextView
             android:layout_width="400dp"
+            android:fontFamily="@font/anaheim"
             android:padding="3dip"
             android:text="Kunaal's Botique" />
     </TableRow>
     <TableRow>
+
         <TextView
             android:layout_width="400dp"
+            android:fontFamily="@font/anaheim"
             android:padding="3dip"
             android:text="Ashwin's Sports Bar" />
     </TableRow>

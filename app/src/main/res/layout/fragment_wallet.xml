@@ -21,12 +21,15 @@
             android:id="@+id/text_wallet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/coin_foreground"
+            android:baselineAligned="false"
 
+            android:drawableLeft="@drawable/coin_foreground"
+            android:fontFamily="@font/Romelio"
             android:gravity="left|center"
+
             android:text="10 coins"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +41,7 @@
             android:layout_height="75dp"
             android:background="@drawable/purple_box"
 
+            android:fontFamily="@font/anaheim"
             android:gravity="center"
             android:text="Boba Ninja"
             android:textColor="#FFFFFF"
@@ -53,6 +57,7 @@
             android:layout_width="300dp"
             android:layout_height="75dp"
             android:background="@drawable/white_box"
+            android:fontFamily="@font/anaheim"
             android:gravity="center"
             android:text="Free Drink\n Free Popcorn Chicken"
             android:textColor="#43484d"
@@ -68,6 +73,8 @@
             android:layout_height="75dp"
             android:background="@drawable/red_box"
 
+
+            android:fontFamily="@font/anaheim"
             android:gravity="center"
             android:text="H&#38;M"
             android:textColor="#FFFFFF"
@@ -83,6 +90,7 @@
             android:layout_width="300dp"
             android:layout_height="75dp"
             android:background="@drawable/white_box"
+            android:fontFamily="@font/anaheim"
             android:gravity="center"
             android:text="Free Belt"
             android:textColor="#43484d"
