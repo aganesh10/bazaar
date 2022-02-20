@@ -7,7 +7,7 @@
         <Button
             android:id="@+id/text_home"
             android:layout_width="315dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:gravity="left|center"
             android:text="⛰️ Kathmandu Market" />
 
@@ -25,7 +25,7 @@
         <Button
         android:id="@+id/text_bongo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:gravity="left|center"
             android:text="🍔 Bongo Burger"/>
 
@@ -42,7 +42,7 @@
         <Button
             android:id="@+id/text_pacsun"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:gravity="left|center"
             android:text="🐻 Bancroft Clothing Co"/>
         <TextView
@@ -58,9 +58,9 @@
         <Button
             android:id="@+id/text_botique"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:gravity="left|center"
-            android:text="👗 Kunaal's Botique"/>
+            android:text="👗 Kunaal's Boutique"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
         <Button
             android:id="@+id/text_sports"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:gravity="left|center"
             android:text="🏈 Ashwin's Sports Bar"/>
         <TextView
@@ -90,7 +90,7 @@
         <Button
             android:id="@+id/text_gift"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:gravity="left|center"
             android:text="🎁 Jasmine's Souvenir Shop"/>
         <TextView
