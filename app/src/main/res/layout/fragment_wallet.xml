@@ -76,7 +76,7 @@
 
             android:fontFamily="@font/anaheim"
             android:gravity="center"
-            android:text="H&#38;M"
+            android:text="Bancroft Clothing Co"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
